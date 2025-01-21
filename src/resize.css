@@ -1,0 +1,61 @@
+
+@media only screen and (max-width: 1400px){
+    
+    form, .result-container  {
+        width: 40%;
+    }
+
+    .h1 {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    form, .result-container {
+        width: 50%;
+    }
+
+    .h1 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    form, .result-container {
+        width: 80%;
+    }
+
+    .h1 {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+
+    h1 {
+        font-size: larger;
+    }
+
+    .h1 {
+        margin: 20px 0;
+    }
+    
+    .nameText {
+        width: 100px;
+        text-align: left;
+        padding-left: 10px;
+      }
+      
+      .numberText {
+        width: 35px;
+        text-align: center;
+        
+      }
+
+      .h1 {
+        padding: 30px;
+        text-align: center;
+        font-size:x-large;
+      }
+
+}
